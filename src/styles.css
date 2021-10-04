@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Context_Menu {
+  position: fixed;
+  border: 1px solid black;
+}
+.Context_Menu li {
+  list-style-type: none;
+}
+.Context_Menu li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+td,
+th {
+  border: 1px solid #999;
+}
+table {
+  border-collapse: collapse;
+}
+
+.TableCell {
+  padding: 0;
+}
+.TableCell input {
+  outline: none;
+  border: none;
+  width: 100px;
+}
+
+.Context_Menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background: black;
+  color: white;
+}
